@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Real calibration data stays local: golden sets, fixtures, and verdicts
+# mined from production contain customer content and are never committed.
+fixtures/
+golden/
+out/
+config.py
+*.local.*
